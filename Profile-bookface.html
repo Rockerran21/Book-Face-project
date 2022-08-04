@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Book-Face.com</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+        <a href="Bookface.html"><img src="https://images.squarespace-cdn.com/content/v1/5c12324d4eddecc8d9e4d31d/1548211183516-9ABGNLT2378V7NMVTOCL/bookfacelogo.png" class="logo" alt="Logos are dumb"></a>
+            <ul>
+                <li> <div class="dropdown">
+                        <button class="dropbtn"> <a href="#"><img src="Images/notification.png" class="Notification"  alt="Notifications are dumb"></a> 
+                        </a></button>
+                        <div class="dropdown-content">
+                          <a href="#">No new Notifications</a>
+                        </div>
+                        </div></li>
+                        <li><div class="dropdown">
+                            <button class="dropbtn"><a href="messenger.html"> <li><img src="Images/message.png" class="Mail" alt="HeHe you dont have any friends">
+                            </a></button>
+                            <div class="dropdown-content">
+                              <a href="#"><div class="chat-1">
+                                <img src="Images/friends.png" alt="">
+                                <div class="chat-1-text">
+                                    <span class="chat-1-name">
+                                        Robert Downey Jr
+                                    </span>
+                                    <br>
+                                    <span class="chat-2-text">
+                                        Hello Bro. How are you? Wanna Hang out?
+                                    </span>
+                                </div>
+                            </div></a>
+                              <a href="#"><div class="chat-1">
+                                <img src="Images/friends.png" alt="">
+                                <div class="chat-1-text">
+                                    <span class="chat-1-name">
+                                        Robert Downey Jr
+                                    </span>
+                                    <br>
+                                    <span class="chat-2-text">
+                                        Hello Bro. How are you? Wanna Hang out?
+                                    </span>
+                                </div>
+                            </div></a>
+                              <a href="#"><div class="chat-1">
+                                <img src="Images/friends.png" alt="">
+                                <div class="chat-1-text">
+                                    <span class="chat-1-name">
+                                        Robert Downey Jr
+                                    </span>
+                                    <br>
+                                    <span class="chat-2-text">
+                                        Hello Bro. How are you? Wanna Hang out?
+                                    </span>
+                                </div>
+                            </div></a>
+                            <a href="messenger.html">See more</a>
+                            </div>
+                            </div></li>
+                            <li><div class="dropdown">
+                                <button class="dropbtn"><a href="Watch.html"><li><img src="Images/video.png"class="Video" alt="Videos are Dumb"></li>
+                                </a></button>
+                                <div class="dropdown-content">
+                                  <a href="#">China plus uploaded a video</a>
+                                  <a href="#">Gamelogy Asia Uploaded a new Video</a>
+                                  <a href="Watch.html">See More</a>
+                                </div>
+                       </div></li>
+               
+            </ul>
+       </a>
+       </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwLMU-XyMZQ8IaGGFlWa6cX9eNa3KxVXOq6g&usqp=CAU" alt="Searching is Dumb">
+                <input type="text" placeholder="Search"> 
+
+
+
+
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenueToggle()">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr0YlatAy-hrNCQjzZ7fqDzNiXt7HGmzVaA&usqp=CAU" alt="Upload your Photo if you are not dumb">
+            </div>
+        </div>
+   
+<!--Settings menue for the profie picture-->
+<div class="settings-menue">
+    <div id="dark-button" >
+
+        <span></span>
+    </div>
+    <div class="settings-menue-inner">
+        <div class="user-profile">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr0YlatAy-hrNCQjzZ7fqDzNiXt7HGmzVaA&usqp=CAU" >
+            <div >
+                <p>
+                    Ranjan Marasini
+                    <br><a href="#">See Your Profile</a><i class="fa-solid fa-caret-down"></i>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="user-profile">
+    
+            <img src="Images/feedback.png" >
+            <div >
+                <p>
+                    <br>Give Feedback
+                    <br><a href="#">Help me improve the new design</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+
+
+        <div class="settings-link">
+            <img src="Images/setting.png" class="settings-icon" >
+            <a href="#">Settings and Privacy <img src="Images/arrow.png" width="10px" alt=""></a>
+        </div>
+        <div class="settings-link">
+            <img src="Images/help.png" class="settings-icon" >
+            <a href="#">Help and Support <img src="Images/arrow.png" width="10px" alt=""></a>
+        </div>
+        <div class="settings-link">
+            <img src="Images/display.png" class="settings-icon" >
+            <a href="#">Display and Accesibility <img src="Images/arrow.png" width="10px" alt=""></a>
+        </div>
+        <div class="settings-link">
+            <img src="Images/logout.png" class="settings-icon" >
+            <a href="#">Logout <img src="Images/arrow.png" width="10px" alt=""></a>
+        </div>
+    </div>
+   
+</div>
+        
+    </nav>
+
+
+    <div class="profile-container">
+
+
+        <img src="Images/cover.png"class="cover-image" >
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="Images/profile.png" class="pd-img">
+                    <h3>
+                        Ranjan Marasini
+                    </h3>
+                <div>
+                    <p> 0 Friends - 0 Mutual</p>
+                        <img src="Images/member-1.png" >
+                        <img src="Images/member-2.png" >
+                        <img src="Images/member-3.png" >
+                        <img src="Images/member-4.png" >
+                </div>  
+                    
+             </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"><img src="Images/add-friends.png" > Friends</button>
+                <button type="button"><img src="Images/message.png" alt=""> Message</button>
+                <br>
+                <a href="#" ><img src="Images/more.png" alt=""></a>
+            </div>
+    </div>
+    <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Just a random wanderer looking to earn something in his life. <img src="Images/feeling.png" alt=""></p>
+                <hr>
+                <ul>
+                    <li><img src="Images/profile-study.png" alt="">
+                        Student at Forbes College .
+                    </li>
+                    <li><img src="Images/profile-study.png" alt=""></i>Member of national chess club at chess.com<i class="fa-solid fa-chess"></i></li>
+                    <li> <img src="Images/profile-study.png" alt="">Wannabe Ethical Hacker<i class="fa-solid fa-computer"></i></li>
+                    <li><img src="Images/profile-home.png" alt="">Lives in Nawalpur,Nepal</li>
+                    <li><img src="Images/profile-location.png" alt="">From Kathmandu,Nepal</li>
+                </ul>
+            </div>
+           <div class="forced-div">
+            <div class="photo-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                <a href="">All Photos</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div >
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5MC8QDoT-JUhquslBaowCyayVOacy9lswA&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWo3luud5KPZknLR5zdUUwzvYBztWgTxrkbA&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BxmNGPCwoBHDycrXsgUYCEudzf19bG1gdg&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpGK1mTtKpfjGyHlxdfG5euq8h_WEnhzoKNg&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPf8FpFTwYnenA0kHgVxyMrahU-q5I2v8Sbw&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMehQkzOGPHsGOLvHgVsu52tMQNVqVZPpHQ&usqp=CAU" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="photo-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                <a href="">All Friends </a>
+                </div>
+                <p> 0 Friends - 0 Mutual </p>
+                <div class="friends-box">
+                    <div >
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5MC8QDoT-JUhquslBaowCyayVOacy9lswA&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWo3luud5KPZknLR5zdUUwzvYBztWgTxrkbA&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BxmNGPCwoBHDycrXsgUYCEudzf19bG1gdg&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpGK1mTtKpfjGyHlxdfG5euq8h_WEnhzoKNg&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPf8FpFTwYnenA0kHgVxyMrahU-q5I2v8Sbw&usqp=CAU" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMehQkzOGPHsGOLvHgVsu52tMQNVqVZPpHQ&usqp=CAU" alt="">
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="post-col">
+
+            <div class="write-post-container">
+                <div class="user-profile">
+
+                    <img src="Images/profile-pic.png" >
+                    <div >
+                        <p>
+                            Ranjan Marasini
+                            <br><small>Pubic </i> </small> <i class="fa-solid fa-caret-down"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Whats on your mind Ranjan"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="Images/live-video.png" > Live Video</a>
+                        <a href="#"><img src="Images/photo.png" > Photo/Video</a>
+                        <a href="#"><img src="Images/feeling.png" > Feeling/Activity</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="user-profile">
+
+                    <img src="Images/profile-pic.png" >
+                    <div >
+                        <p class="post-hearder">
+                            Ranjan Marasini <i class="fa-solid fa-ellipsis-vertical"></i>
+                            <br><span>June 24 2022, 13:40 pm</span>
+                        </p>
+                    </div>
+                </div>
+                <p class="post-text">
+                    <span>Hello Guys</span> This is my first post on my facebook clone. This may look stupid and it may sound a bit weird but this <a href="#"></a>
+                    
+                    <a>
+                         is my project.
+                    </a>
+                </p>
+                <img src="Images/feed-image-1.png" class="post-img">
+
+        <div class="post-row">
+            <div class="activity-icon">
+                <div class="div">
+                    <img src="Images/like-blue.png" alt="">80
+                    <img src="Images/comments.png" alt="">30
+                    <img src="Images/share.png" alt="">24
+                </div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr0YlatAy-hrNCQjzZ7fqDzNiXt7HGmzVaA&usqp=CAU" >
+            </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="user-profile">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr0YlatAy-hrNCQjzZ7fqDzNiXt7HGmzVaA&usqp=CAU" >
+                    <div >
+                        <p>
+                            Ranjan Marasini
+                            <br><span>May 16 2022,  07:43 AM</span>
+                        </p>
+                    </div>
+                </div>
+                <p class="post-text">
+                    <span>Hacking is so fun</span>  <a href="#"></a>
+                    <a>
+                        I started hacking a few weeks agon and now I am in love with it. 
+                    </a>
+                </p>
+                <a href="https://www.youtube.com/watch?v=3ytqP1QvhUc"><img src="https://i.ytimg.com/vi/3ytqP1QvhUc/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCcrxERXlkDMUVo5u-8AjRxE25OFQ" alt=""></a>
+
+        <div class="post-row">
+            <div class="activity-icon">
+                <div class="div">
+                    <img src="Images/like-blue.png" alt="">80
+                    <img src="Images/comments.png" alt="">30
+                    <img src="Images/share.png" alt="">24
+                </div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr0YlatAy-hrNCQjzZ7fqDzNiXt7HGmzVaA&usqp=CAU" >
+            </div>
+                </div>
+            <div class="post-container">
+                <div class="user-profile">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr0YlatAy-hrNCQjzZ7fqDzNiXt7HGmzVaA&usqp=CAU" >
+                    <div >
+                        <p>
+                            Ranjan Marasini
+                            <br><span>January 2 2022, 11:40 pm</span>
+                        </p>
+                    </div>
+                </div>
+                <p class="post-text">
+                    <span>One PIECE is the best anime.</span>  <a href="#"></a>
+                    Just finished watching the second episode of the latest
+                    <a>
+                        NETWORK-CHUCK'S
+                    </a>
+                   new episode. Python is really a language that is needed to be taught everywhere 
+                </p>
+               
+               <a href="https://www.youtube.com/watch?v=T6OLDHAWjjA"><img src="https://i.ytimg.com/vi/T6OLDHAWjjA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD0TI04vofiPI_Fs8UTh5TVh2WxwA" class="post-img"></a> 
+                </div>
+
+        <div class="post-row">
+            <div class="activity-icon">
+                <div class="div">
+                    <img src="Images/like.png" alt="">80
+                    <img src="Images/comments.png" alt="">30
+                    <img src="Images/share.png" alt="">24
+                </div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="Images/profile-pic.png" >
+            </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRr0YlatAy-hrNCQjzZ7fqDzNiXt7HGmzVaA&usqp=CAU" >
+                    <div >
+                        <p>
+                            Ranjan Marasini
+                            <br><span>April 1 2022, 12:00 pm</span>
+                        </p>
+                    </div>
+                </div>
+                <p class="post-text">
+                    <span>Hello Guys</span>  <a href="#"></a>
+                    Being a script kid is too much fun. Using other's code to do something that someone elese has workded hard gives so much fun.
+                    <a>
+                       Wikipedia, Youtube and Reddit 
+                    </a>
+                    has taught me so much. 
+                </p>
+                <a href="https://www.youtube.com/watch?v=1w6Xu0ljcTA"><img src="https://i.ytimg.com/vi/1w6Xu0ljcTA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAJjc-3FmPZ01Vw0FOhnQAnrWhiew" class="post-img"></a>
+
+        <div class="post-row">
+            <div class="activity-icon">
+                <div class="div">
+                    <img src="Images/like.png" alt="">80
+                    <img src="Images/comments.png" alt="">30
+                    <img src="Images/share.png" alt="">24
+                </div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="Images/profile-pic.png" >
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    
+
+
+   
+        <div class="footer">
+            Copyright 2022 - Ranjan Marasini 
+        </div>
+        <script src="https://kit.fontawesome.com/05f82e3b35.js" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+
+</html> 
